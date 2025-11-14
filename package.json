@@ -1,0 +1,23 @@
+{
+  "name": "content-generator",
+  "version": "1.0.0",
+  "description": "AI-powered content generation tool for blogs and social media.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "config": "tailwindcss init",
+    "watch:css": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "keywords": [
+    "tailwind",
+    "gemini",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}
